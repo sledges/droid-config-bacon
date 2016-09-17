@@ -80,4 +80,5 @@ Requires:
 
 # For devices where test_gps eventually gets a fix:
 - geoclue-provider-hybris
+
 Summary: Jolla HW Adaptation bacon
