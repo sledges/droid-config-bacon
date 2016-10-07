@@ -75,6 +75,13 @@ Requires:
 - telepathy-ring
 - pulseaudio-modules-droid-glue
 
+# Flashlight
+- jolla-settings-system-flashlight
+
 # For devices where test_gps eventually gets a fix:
-#- geoclue-provider-hybris-community
+- geoclue-provider-hybris
+
+# Camera
+- camera-settings-plugin
+
 Summary: Jolla HW Adaptation bacon
