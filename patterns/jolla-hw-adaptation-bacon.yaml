@@ -10,6 +10,7 @@ Requires:
 
 - droid-hal-bacon
 - droid-hal-bacon-img-boot
+- droid-hal-bacon-kernel
 - droid-hal-bacon-kernel-modules
 - droid-config-bacon-sailfish
 - droid-config-bacon-pulseaudio-settings
