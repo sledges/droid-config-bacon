@@ -13,4 +13,7 @@
 # Community HW adaptations need this
 %define community_adaptation 1
 
+# We assume most devices will
+%define have_modem 1
+
 %include droid-configs-device/droid-configs.inc
