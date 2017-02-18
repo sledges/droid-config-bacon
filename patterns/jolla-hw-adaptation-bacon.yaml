@@ -31,12 +31,16 @@ Requires:
 
 # Add GStreamer v1.0 as standard
 - gstreamer1.0
+- gstreamer1.0-tools
 - gstreamer1.0-plugins-good
 - gstreamer1.0-plugins-base
 - gstreamer1.0-plugins-bad
 - nemo-gstreamer1.0-interfaces
 - gstreamer1.0-droid
 - gstreamer1.0-droid-tools
+
+# This is needed to fix hw video decoding
+- droid-media
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -75,6 +79,9 @@ Requires:
 # For devices where test_gps eventually gets a fix:
 - geoclue-provider-hybris
 
+# For Mozilla location services (online)
+- geoclue-provider-mlsdb
+
 # Camera
 - camera-settings-plugin
 
@@ -90,5 +97,8 @@ Requires:
 # usefull stuff 
 - mce-tools
 
+# Sailfish OS CSD tool for hardware testing
+# needs some configuration to get all features working
+- csd
 
 Summary: Jolla HW Adaptation bacon
