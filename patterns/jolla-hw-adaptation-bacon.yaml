@@ -4,11 +4,12 @@
 Description: Pattern with packages for bacon HW Adaptation
 Name: jolla-hw-adaptation-bacon
 Requires:
-- pattern:jolla-hw-adaptation-hybris
+#- pattern:jolla-hw-adaptation-hybris
 #- pattern:jolla-hw-adaptation-hybris-droid-vibrator
 - pattern:jolla-ui-configuration-bacon
 
 - droid-hal-bacon
+- droid-hal-bacon-detritus
 - droid-hal-bacon-img-boot
 - droid-hal-bacon-kernel
 - droid-hal-bacon-kernel-modules
@@ -19,6 +20,17 @@ Requires:
 - droid-config-bacon-flashing
 - droid-config-bacon-bluez4
 - droid-hal-version-bacon
+
+# Hybris packages
+- libhybris-libEGL
+- libhybris-libGLESv2
+- libhybris-libwayland-egl
+
+# Sensors
+- hybris-libsensorfw-qt5
+
+# Needed for /dev/touchscreen symlink
+- qt5-plugin-generic-evdev
 
 - pulseaudio-modules-droid
 # for audio recording to work:
@@ -40,7 +52,7 @@ Requires:
 - gstreamer1.0-droid-tools
 
 # This is needed to fix hw video decoding
-- droid-media
+- droidmedia
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -53,11 +65,11 @@ Requires:
 
 # Extra useful modes not officially supported:
 # might need some configuration to get working
-- usb-moded-mass-storage-android-config
+#- usb-moded-mass-storage-android-config
 # working but careful with roaming!
 - usb-moded-connection-sharing-android-config
 # android diag mode only usable for certain android tools
-- usb-moded-diag-mode-android
+#- usb-moded-diag-mode-android
 
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 - rfkill

@@ -7,6 +7,10 @@ Requires:
 - pattern:jolla-hw-adaptation-bacon
 - pattern:jolla-sailfish-applications
 - pattern:jolla-ui-wayland
+
+# For devices with cellular modem. Those without one, please comment out:
+- pattern:jolla-sailfish-cellular-apps
+
 # Early stages of porting benefit from these:
 - pattern:sailfish-porter-tools
 
