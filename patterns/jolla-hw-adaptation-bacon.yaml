@@ -4,10 +4,6 @@
 Description: Pattern with packages for bacon HW Adaptation
 Name: jolla-hw-adaptation-bacon
 Requires:
-#- pattern:jolla-hw-adaptation-hybris
-#- pattern:jolla-hw-adaptation-hybris-droid-vibrator
-- pattern:jolla-ui-configuration-bacon
-
 - droid-hal-bacon
 - droid-hal-bacon-detritus
 - droid-hal-bacon-img-boot
@@ -81,7 +77,6 @@ Requires:
 - jolla-settings-layout
 
 # For devices with working cellular modem:
-- pattern:jolla-sailfish-cellular-apps
 - telepathy-ring
 - pulseaudio-modules-droid-glue
 
