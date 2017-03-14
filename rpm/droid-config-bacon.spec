@@ -2,6 +2,8 @@
 # ../droid-configs-device/droid-configs.inc
 %define device bacon
 %define vendor oneplus
+%define rpm_device bacon   
+%define rpm_vendor oneplus
 %define vendor_pretty OnePlus
 %define device_pretty One
 %define dcd_path ./
@@ -12,8 +14,5 @@
 
 # Community HW adaptations need this
 %define community_adaptation 1
-
-# We assume most devices will
-%define have_modem 1
 
 %include droid-configs-device/droid-configs.inc
