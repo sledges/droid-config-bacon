@@ -28,18 +28,20 @@ Requires:
 # Introduced starting Sailfish OS 2.0.4.x:
 # # 3rd party accounts like Twitter, VK, cloud services, etc
 - jolla-settings-accounts-extensions-3rd-party-all
-
-# these might come in handy
-- jolla-email
-- jolla-calendar
-- jolla-calculator
-- jolla-mediaplayer
 - jolla-settings-sailfishos
+
+# these might come in handy and should be installed from the store
+# still a phone without these is rather useless
+#- jolla-email
+#- jolla-calendar
+#- jolla-calculator
+#- jolla-mediaplayer
 
 # these might come in handy as well
 - jolla-settings-accounts-extensions-jabber
 - jolla-settings-accounts-extensions-email
-- jolla-settings-accounts-extensions-sip
+# not usefull yet
+#- jolla-settings-accounts-extensions-sip
 
 Summary: Jolla Configuration bacon
 
