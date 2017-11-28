@@ -5,8 +5,10 @@ Description: Pattern with packages for bacon configurations
 Name: jolla-configuration-bacon
 Requires:
 - pattern:jolla-hw-adaptation-bacon
-- pattern:jolla-sailfish-applications
-- pattern:jolla-ui-wayland
+
+# in new temprelates
+- patterns-sailfish-applications
+- patterns-sailfish-ui
 
 - sailfish-content-graphics-z@ICON_RES@
 
@@ -15,7 +17,7 @@ Requires:
 - ambient-icons-closed-z@ICON_RES@
 
 # For devices with cellular modem. Those without one, please comment out:
-- pattern:jolla-sailfish-cellular-apps
+- patterns-sailfish-cellular-apps
 
 # Early stages of porting benefit from these:
 - pattern:sailfish-porter-tools
@@ -30,6 +32,10 @@ Requires:
 - jolla-settings-accounts-extensions-3rd-party-all
 - jolla-settings-sailfishos
 
+# Introduced starting Sailfish OS 2.1.1.26
+# Required for Jolla Store Access
+- patterns-sailfish-consumer-generic
+
 # these might come in handy and should be installed from the store
 # still a phone without these is rather useless
 #- jolla-email
@@ -38,8 +44,8 @@ Requires:
 #- jolla-mediaplayer
 
 # these might come in handy as well
-- jolla-settings-accounts-extensions-jabber
-- jolla-settings-accounts-extensions-email
+#- jolla-settings-accounts-extensions-jabber
+#- jolla-settings-accounts-extensions-email
 # not usefull yet
 #- jolla-settings-accounts-extensions-sip
 
