@@ -93,7 +93,9 @@ Requires:
 - camera-settings-plugin
 
 # ffmemless vibrator
-- qt5-feedback-haptics-ffmemless
+# - qt5-feedback-haptics-ffmemless
+- ngfd-plugin-native-vibrator
+- qt5-feedback-haptics-native-vibrator
 
 # gestures support
 - gestured
