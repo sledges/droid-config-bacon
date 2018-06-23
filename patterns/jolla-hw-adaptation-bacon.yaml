@@ -14,7 +14,7 @@ Requires:
 - droid-config-bacon-policy-settings
 - droid-config-bacon-preinit-plugin
 - droid-config-bacon-flashing
-- droid-config-bacon-bluez4
+- droid-config-bacon-bluez5
 - droid-hal-version-bacon
 
 # Hybris packages
