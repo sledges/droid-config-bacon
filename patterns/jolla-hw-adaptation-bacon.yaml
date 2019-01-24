@@ -107,6 +107,7 @@ Requires:
 - mce-tools
 - strace
 - binutils
+- harbour-messwerk
 
 # Sailfish OS CSD tool for hardware testing
 # needs some configuration to get all features working
