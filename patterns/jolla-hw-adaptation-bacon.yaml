@@ -103,6 +103,9 @@ Requires:
 # fix for battery charger
 - statefs-provider-power-udev
 
+# hciconfig etc.
+- bluez5-tools
+
 # usefull stuff 
 - mce-tools
 - strace
